@@ -25,6 +25,8 @@ class BMICalculatorTest {
 
     @Test
     void result() {
+        String result = bmiCalculator.result();
+        Assertions.assertEquals("obese", result);
     }
 
 
